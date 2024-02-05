@@ -1,0 +1,387 @@
+
+        body{
+            /* background-color: rgb(255, 255, 255); */
+            padding: 0%;
+            margin: 0%;
+        }
+
+        main{
+            background-color: rgb(128, 165, 108);
+            width: 100%;
+            min-height: 220px;
+        }
+
+        main>header{
+            height: 100px;
+            background-color: rgb(8, 8, 8);
+            width: 100%;
+        }
+
+       
+
+        main>header>nav{
+            background-color: rgb(95, 92, 92);
+            width: 100%;
+            height: 100px;
+        }
+
+        main>header>nav>.logo{
+            float: left;
+            height: 100px;
+            width: 20%;
+            /* background-color: aqua; */
+        }
+
+        main>header>nav>.logo>img{
+            height: 100%;
+            width: 50%;
+            margin-left: 62px;
+            margin-top: 5px;
+        }
+
+        main>header>nav>.mainNav{
+            float: left;
+            height: 80px;
+            width: 60%;
+            margin-top: 10px;
+            background-color: rgb(34, 34, 43);
+            border-top-left-radius: 90px;
+            border-bottom-right-radius: 90px;
+        }
+
+        .mainNav>ul{
+            list-style: none;
+        }
+
+        .mainNav>ul li{
+            float: left;
+            margin-left: 85px;
+            margin-top: 14px;
+        }
+
+        .mainNav>ul li a{
+            padding: 5px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: white;
+            font-size: 22px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .mainNav>ul li a:hover{
+            background-color: azure;
+            color: black;
+            transition: 0.5s;
+        }
+
+
+        main>header>nav>.signing{
+            float: left;
+            height: 100px;
+            width: 20%;
+            /* background-color: brown; */
+        }
+
+        main>header>nav>.signing>a{
+            text-decoration: none;
+            color: white;
+            margin-left: 60px;
+            line-height: 6.5;
+            font-size: 16px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        main>header>nav>.signing>a:hover{
+            border-bottom: 2px solid rgb(248, 246, 246);
+        }
+
+
+        
+        .sale{
+            font-size: small;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            display: block;
+            text-align: center;
+            color: rgb(255, 255, 255);
+        }
+
+        .sale>a{
+            /* text-decoration: none; */
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            font-size: 13px;
+        }
+
+        .sale>#firstLine{
+            font-size: 17px;
+            font-weight: bold;
+        }
+
+        .sale>#secondline{
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .cover{
+            min-height: 500px;
+            width: 100%;
+        }
+
+        .cover>img{
+            width: 100%;
+            height: 500px;
+        }
+
+        .cover>#o{
+            position: absolute;
+            top: 35%;
+            margin-left: 80px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 46px;
+            font-weight:normal;
+        }
+
+        .cover>#m{
+            position: absolute;
+            top: 55%;
+            margin-left: 80px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            font-weight:normal;
+        }
+
+        .cover>#btn{
+            display: block;
+            position: absolute;
+            top: 70%;
+            margin-left: 80px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+            font-weight: bold;
+            width: 130px;
+            border: none;
+            background-color: black;
+            color: white;
+        }
+
+        .cover>#btn:hover{
+            background-color: white;
+            color: black;
+            transition: 0.5s;
+        }
+
+        .newsport{
+            text-align: center;
+        }
+
+        .newsport>#nis{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-size: 30px;
+            position: relative;
+            top: 5px;
+        }
+
+
+        .mainn{
+            min-height: 530px;
+            width: 100%;
+            /* background-color: aqua; */
+        }
+
+
+        .mainn>.divisions{
+            float: left;
+            margin-left: 13px;
+            height: 530px;
+            width: 32%;
+            /* background-color: rgb(88, 105, 105); */
+        }
+
+        .mainn>.divisions>.image{
+            height: 400px;
+            width: 100%;
+            background-color: blue;
+        }
+
+
+        .mainn>.divisions>.singleproductimage>img{
+            height: 400px;
+            width: 100%;
+        }
+
+        .mainn>.divisions>.largetext{
+            /* background-color: blue; */
+            text-align: center;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+        }
+
+        .mainn>.divisions>.smalltext{
+            /* background-color: blueviolet; */
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+            margin-top: -19px;
+            
+        } 
+
+        .mainn>.divisions>.details{
+            color: white;
+            text-decoration: none;
+            padding: 5px;
+            margin-left: 43%;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+            width: auto;
+            height: 10px;
+            text-align: center;
+        }
+
+        .mainn>.divisions>.details:hover{
+            border: 1px solid black;
+            transition: 0.5s;
+            background-color: whitesmoke;
+            color: black;
+        }
+
+
+        .mainArea{
+            /* float: left; */
+            min-height: 430px;
+            width: 100%;
+            background-color: rgb(241, 118, 10);
+            border: none;
+        }
+
+        .mainArea>.mainareaimage{
+            float: left;
+            height: 430px;
+            width: 45%;
+            /* background-color: blanchedalmond; */
+            
+        }
+
+        .mainArea>.mainareaimage>img{
+            position: relative;
+            top: 14px;
+            left: 14px;
+            height: 400px;
+            width: 95%;
+        }
+
+        .mainArea>.mainareatext{
+            float: left;
+            height: 430px;
+            width: 55%;
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: white;
+        }
+
+        .mainArea>.mainareatext>#largetext{
+            font-size: 50px;
+            margin-top: 83px;
+            margin-left: 90px;
+        }
+
+        .mainArea>.mainareatext>#smalltext{
+            font-size: 30px;
+            margin-left: 201px;
+            margin-top: -50px;
+        }
+
+        .mainArea>.mainareatext>.mainareabuttons{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-left: 52px;
+            padding: 10px;
+            background-color: rgb(255, 255, 255);
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-size: 16px;
+            position: relative;
+            top: 30px;
+        }
+
+        .mainArea>.mainareatext>.mainareabuttons:hover{
+            background-color: black;
+            color: white;
+            transition: 0.5s;
+        }
+
+
+        
+
+        
+        footer{
+            margin-top: 30px;
+            min-height: 300px;
+            width: 100%;
+            background-color: rgb(53, 54, 54);
+        }
+
+        footer>.sections{
+           /* text-align: center; */
+            float: left;
+            width: 30%;
+            margin-left: 32px;
+            height: 300px;
+            /* background-color: blue; */
+        }
+
+        footer>.sections>.header{
+            height: 60px;
+            /* background-color: aquamarine; */
+            width: 100%;
+            line-height: 55px;
+            color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        footer>.sections>.links>a{
+            display: block;
+            width: max-content;
+            color: rgb(180, 175, 175);
+            text-decoration: none;
+            line-height: 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        footer>.sections>.links>a:hover{
+            color: aliceblue;
+        }
+
+
+        /* LOGIN PAGE */
+
+        .form{
+            background-image: 
+            linear-gradient(to right, rgba(19, 8, 8, 0.52), rgba(155, 132, 149, 0.73)), url("titans/puma4.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 500px;
+            width: 50%;
+            margin-left: 335px;
+            margin-top: 40px;
+        }
+
+        
+
+        
+        .inputs{
+            display: block;
+            position: relative;
+            top: 70px;
+            left: 110px;
+            border-radius: 5px;
+            height: 30px;
+            width: 250px;
+            background-color: rgb(227, 231, 231);
+            border: none;
+        }
+        
+        .Linputs{
+            top: 175px;
+        }
+        
+        
